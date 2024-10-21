@@ -6,7 +6,7 @@
 total = float(input("Enter the amount of money as a float: "))
 
 # find the ammount of dollars
-total = total * 100
+total = int(total * 100)
 dollars = total // 100
 dollars = int(dollars)
 if dollars > 1:
